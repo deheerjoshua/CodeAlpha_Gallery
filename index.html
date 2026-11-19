@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joshua's Image Gallery</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>🖼️ My Image Gallery</h1>
+<p>By Joshua Deheer | CodeAlpha Task 1</p>
+<input type="text" id="search" placeholder="🔍 Search images...">
+<div class="filters">
+<button class="filter-btn active" data-filter="all">All</button>
+<button class="filter-btn" data-filter="nature">Nature</button>
+<button class="filter-btn" data-filter="city">City</button>
+<button class="filter-btn" data-filter="tech">Tech</button>
+<button class="filter-btn" data-filter="food">Food</button>
+</div>
+</header>
+
+<div class="gallery" id="gallery"></div>
+
+<div id="lightbox" class="lightbox">
+<span class="close">&times;</span>
+<button class="prev">❮</button>
+<img id="lightbox-img">
+<p id="lightbox-caption"></p>
+<button class="next">❯</button>
+</div>
+
+<footer><p>© 2026 Joshua Deheer | Built with HTML, CSS & JavaScript</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
